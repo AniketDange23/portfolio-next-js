@@ -1,0 +1,62 @@
+
+.MainContainer
+{
+    align-items: center;
+}.container{
+    display: flex;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+}
+.title{
+    font-size: 38px !important ;
+    color: #4CBDD9;
+    margin-bottom: 20px;
+
+}
+.desc {
+  font: 1.5em sans-serif;
+  justify-content: center;
+}
+
+.content {
+  margin-top: 20px;
+   font-size: 20px;
+   font-weight: 300;
+   color: #999;
+text-align: justify;
+}
+
+.img {
+ 
+    border-radius: 5px;
+    margin: 0 10px;
+}
+.author {
+  vertical-align: middle; 
+  margin-top:  60px;
+
+}
+.avatar {
+    vertical-align: middle;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #eee;
+}
+.date {
+  font-style: italic;
+  margin-left: 10px;
+  font: 0.7em sans-serif;
+}
+.name {
+  font-size: 20px;  
+  font-weight: 600;
+  margin: 15px;
+}
+.text {
+  font-family:'Roboto', sans-serif, Arial, Helvetica!important;
+  font:0.8em sans-serif;
+text-align: justify;
+}

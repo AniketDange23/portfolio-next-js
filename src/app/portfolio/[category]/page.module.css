@@ -1,0 +1,38 @@
+
+.cardTitle {
+  color: rgb(247, 111, 0);
+  margin-top: 10px;
+  font-size: 40px;
+}
+.item {
+  display: flex;
+  margin-bottom: 100px;
+}
+.item:nth-child(2n+1){
+flex-direction: row-reverse;
+}
+.title {
+  font-size: 50px;
+  
+}
+.desc {
+  font-size: medium;
+  text-align: justify;
+}
+.ImgContent {
+  flex:1;
+  height: 500px;
+  position: relative;
+  margin: 30px;
+}
+.Image {
+  object-fit: cover;
+  border-radius: 5px;
+}
+.content{
+  flex: 1;
+  display: flex;
+   flex-direction: column;
+   gap: 20px;
+   justify-content: center;
+}

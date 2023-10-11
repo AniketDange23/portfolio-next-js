@@ -1,0 +1,75 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.form {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+
+}
+.input {
+  padding: 20px;
+  background: transparent;
+  border: 2px solid #eee;
+  border-radius: 5px;
+  font-size: 20px;
+  color: aliceblue;
+  font-weight: bold;
+}
+.button{
+ width: 300px;
+ padding: 20px;
+ cursor: pointer;
+ background-color:#DF654E;
+ color: white;
+ border: none;
+ border-radius: 5px;
+ font-size: 18px;
+  font-weight: 600;
+}
+.google{
+  width: 300px;
+  background-color: #171717;
+  color: white;
+}
+.google button{
+  cursor: pointer;
+  background: none;
+  border: none;
+  vertical-align: middle;
+  font-size: 18px;
+   font-weight: 600;
+   color: white;
+
+}
+.span {
+  width: 300px;
+  padding: 20px;
+  cursor: pointer;
+  background-color: #171717;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+   font-weight: normal;
+}
+.login_btn {
+  background: none; 
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  color: #eee;
+  vertical-align: middle;
+}
+.icon {
+  vertical-align: middle;
+  gap: 20px;
+  margin: 0 25px;
+  font-size: 30px;
+}
